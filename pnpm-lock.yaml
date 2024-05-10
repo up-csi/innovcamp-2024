@@ -14,6 +14,12 @@ importers:
       '@linthtml/linthtml-config-recommended':
         specifier: ^0.1.0
         version: 0.1.0(@linthtml/linthtml@0.9.6)
+      '@skeletonlabs/skeleton':
+        specifier: ^2.10.0
+        version: 2.10.0(svelte@4.2.15)
+      '@skeletonlabs/tw-plugin':
+        specifier: ^0.4.0
+        version: 0.4.0(tailwindcss@3.4.3)
       '@sveltejs/adapter-static':
         specifier: ^3.0.1
         version: 3.0.1(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.15)(vite@5.2.11(terser@5.31.0)))
@@ -450,6 +456,16 @@ packages:
     resolution: {integrity: sha512-TGGO7v7qOq4CYmSBVEYpI1Y5xDuCEnbVC5Vth8mOsW0gDSzxNrVERPc790IGHsrT2dQSimgMr9Ub3Y1Jci5/8w==}
     cpu: [x64]
     os: [win32]
+
+  '@skeletonlabs/skeleton@2.10.0':
+    resolution: {integrity: sha512-jPdDT9PCkGmlUgsgNvR99bK6N2pWG2GfdapwWqDVZkKIhTsLz4TeJNF3H26Pfkicoj4hNz486+WYa7iSpbn80g==}
+    peerDependencies:
+      svelte: ^3.56.0 || ^4.0.0
+
+  '@skeletonlabs/tw-plugin@0.4.0':
+    resolution: {integrity: sha512-v6Y4deBq9ByRx3kTRGgekhhYkWEYgNNNu8UXOwJngCStB7w8SwmbNFSeHkluxMbgCgMnJyp220EMpw9nj/rEsQ==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0'
 
   '@sveltejs/adapter-static@3.0.1':
     resolution: {integrity: sha512-6lMvf7xYEJ+oGeR5L8DFJJrowkefTK6ZgA4JiMqoClMkKq0s6yvsd3FZfCFvX1fQ0tpCD7fkuRVHsnUVgsHyNg==}
@@ -2620,6 +2636,15 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.17.2':
     optional: true
+
+  '@skeletonlabs/skeleton@2.10.0(svelte@4.2.15)':
+    dependencies:
+      esm-env: 1.0.0
+      svelte: 4.2.15
+
+  '@skeletonlabs/tw-plugin@0.4.0(tailwindcss@3.4.3)':
+    dependencies:
+      tailwindcss: 3.4.3
 
   '@sveltejs/adapter-static@3.0.1(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.15)(vite@5.2.11(terser@5.31.0)))':
     dependencies:
