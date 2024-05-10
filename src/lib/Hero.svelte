@@ -1,7 +1,6 @@
 <script lang="ts">
     import bg_src from "$lib/assets/ic-svelte-bg.jpg";
     import logo_ic from "$lib/assets/main-logo-ic.png"
-    // import cs_logos from "$lib/assets/ic-cs-Logos.png"
     import CSI from '$lib/assets/CSILogo.png';
     import PARSER from '$lib/assets/PARSERLogo.png';
     import DCS from '$lib/assets/DCSLogo.png';
@@ -40,9 +39,13 @@
                 </a>
             </div>
         </div>
+
+        <!-- SVELTE SURGE LOGO -->
         <div class="py-10">
             <img alt="svelte_surge_logo" src={logo_ic} class="h-44 sm:h-60 md:h-96 w-max"/>
         </div>
+
+        <!-- SCHED, AECH VENUE DETAILS -->
         <div class="py-10">
             <p class="text-center text-xs sm:text-md md:text-xl text-white font-['Bebas_Neue'] font-regular tracking-[.30em]">
                 MAY 15, 2024<br>
