@@ -7,8 +7,6 @@
     import TiktokLogo from "../lib/tiktok-logo.svelte"
 </script>
 
-<slot />
-
 <AppBar
     gridColumns="grid-cols-[auto_1fr_auto]"
     slotDefault="self-center justify-self-end text-center"
@@ -25,6 +23,8 @@
         <button type="button" class="variant-filled btn bg-black text-white">Register Here</button>
     </div>
 </AppBar>
+
+<slot />
 
 <AppBar
     gridColumns="sm:grid-cols-3"
