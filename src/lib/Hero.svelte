@@ -10,19 +10,34 @@
 
 <div class="relative bg-cover bg-center" style="background-image: url({bg_src})">
     <div class="h-auto flex flex-col items-center justify-center gap-10">
-        <div class="py-10 grid grid-flow-cols grid-cols-4 auto-cols-min">
-            <!-- <img alt="svelte_surge_logo" src={cs_logos} class="h-8 sm:h-10 md:h-20 w-max top-10"/> -->
-            <div>
-                <img alt="CSI_logo" src={CSI} class="h-16"/>
+        <div class="py-10 grid grid-flow-cols grid-cols-5 auto-cols-min gap-2 md:gap-4">
+
+            <!-- CSI LOGO -->
+            <div class="col-span-1 flex items-center justify-center">
+                <a href="https://up-csi.org/">
+                    <img alt="CSI_logo" src={CSI} class="h-auto max-h-16"/>
+                </a>
             </div>
-            <div>
-                <img alt="PARSER_logo" src={PARSER} class="h-12"/>
+
+            <!-- PARSER LOGO -->
+            <div class="col-span-1 flex items-center justify-center">
+                <a href="https://www.facebook.com/upparser/">
+                    <img alt="PARSER_logo" src={PARSER} class="h-auto max-h-12"/>
+                </a>
             </div>
-            <div>
-                <img alt="CSWEEK_logo" src={CSWEEK} class="h-8"/>
+
+            <!-- CSWEEK LOGO -->
+            <div class="col-span-2 flex items-center justify-center">
+                <a href="https://www.facebook.com/up.cs.week">
+                    <img alt="CSWEEK_logo" src={CSWEEK} class="h-auto max-h-8"/>
+                </a>
             </div>
-            <div>
-                <img alt="DCS_logo" src={DCS} class="h-12"/>
+
+            <!-- DCS LOGO -->
+            <div class="col-span-1 flex items-center justify-center">
+                <a href="https://dcs.upd.edu.ph/">
+                    <img alt="DCS_logo" src={DCS} class="h-auto max-h-12"/>
+                </a>
             </div>
         </div>
         <div class="py-10">
@@ -36,6 +51,5 @@
                 ALUMNI ENGINEERS’ CENTENNIAL HALL
             </p>
         </div>
-        <!-- <img alt="svelte_surge_bg" src={bg_src} class="absolute object-cover h-auto w-full -z-20"/> -->
     </div>
 </div>
