@@ -3,14 +3,7 @@
 </script>
 
 <div class="flex flex-col">
-    <div class="h-full">
+    <div class="h-screen">
         <Hero />
-    </div>
-
-    <div class="h-screen bg-stone-300">
-        TESTING
-        <div class="h-46 bg-slate-300">
-            Hello
-        </div>
     </div>
 </div>
