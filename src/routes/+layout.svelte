@@ -27,11 +27,11 @@
 </AppBar>
 
 <AppBar
-    gridColumns="grid-cols-3"
+    gridColumns="sm:grid-cols-3"
     slotDefault="self-center text-center"
     slotTrail="place-content-end"
     background="bg-[#323D42]"
-    class="text-white"
+    class="text-white flex"
 >
     <div slot="lead" class="grid grid-cols-1 gap-4">
         <a class="anchor flex gap-2 items-center" href="https://www.facebook.com/upcsi/">
@@ -51,13 +51,15 @@
             @linotechtalk
         </a>
     </div>
+
     <div class="grid grid-cols-1 gap-4">
         <img src="UPCSI_Logo_White 1.svg" alt="UP CSI logo" class="justify-self-center size-32">
         <p class="font-bold">Learn. Create. Innovate.</p>
     </div>
-    <div slot="trail" class="grid grid-cols-1 gap-8 text-right">
+
+    <div slot="trail" class="grid grid-cols-1 gap-4 text-right">
         <p>Alumni Engineers Centennial Hall, Velasquez Street, University of the Philippines Diliman, QC</p>
-        <a class="anchor" href="https://up-csi.org/">https://up-csi.org/</a>
-        <a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a>
+        <div><a class="anchor" href="https://up-csi.org/">https://up-csi.org/</a></div>
+        <div><a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a></div>
     </div>
 </AppBar>
