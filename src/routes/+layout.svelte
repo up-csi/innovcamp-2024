@@ -14,15 +14,15 @@
     background="bg-white/[0.8]"
     class="sticky top-0 z-[100] drop-shadow-md font-['Bebas_Neue'] text-xl"
 >
-    <div slot="lead"><a href="/"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
+    <div slot="lead"><a href="#top"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
     <div class="grid grid-cols-4 gap-8">
         <a class="anchor" href="/">About Event</a>
         <a class="anchor" href="/">Speakers</a>
-        <a class="anchor" href="/">Schedule</a>
+        <a class="anchor" href="#schedule">Schedule</a>
         <a class="anchor" href="/">About UP CSI</a>
     </div>
     <div slot="trail">
-        <a><button type="button" class="text-xl variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-white drop-shadow-sm"
+        <a href="https://forms.gle/NEBjJimhi5FFcRQs9" target="_blank"><button type="button" class="text-xl variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-white drop-shadow-sm"
             >Register Here</button
         ></a>
     </div>
@@ -39,19 +39,19 @@
     border=""
 >
     <div slot="lead" class="grid grid-cols-1 gap-4">
-        <a class="anchor flex items-center gap-2" href="https://www.facebook.com/upcsi/">
+        <a class="anchor flex items-center gap-2" href="https://www.facebook.com/upcsi/" target="_blank">
             <FacebookLogo class="size-8"></FacebookLogo>
             @upcsi
         </a>
-        <a class="anchor flex items-center gap-2" href="https://www.instagram.com/upcsicore/">
+        <a class="anchor flex items-center gap-2" href="https://www.instagram.com/upcsicore/" target="_blank">
             <InstagramLogo class="size-8"></InstagramLogo>
             @upcsicore
         </a>
-        <a class="anchor flex items-center gap-2" href="https://twitter.com/officialupcsi/">
+        <a class="anchor flex items-center gap-2" href="https://twitter.com/officialupcsi/" target="_blank">
             <TwitterLogo class="size-8"></TwitterLogo>
             @officialupcsi
         </a>
-        <a class="anchor flex items-center gap-2" href="https://www.tiktok.com/@linotechtalk/">
+        <a class="anchor flex items-center gap-2" href="https://www.tiktok.com/@linotechtalk/" target="_blank">
             <TiktokLogo class="size-8"></TiktokLogo>
             @linotechtalk
         </a>

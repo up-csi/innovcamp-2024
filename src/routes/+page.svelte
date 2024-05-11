@@ -8,7 +8,7 @@
         <Hero />
     </div>
 
-    <div class="">
+    <div class="" id="schedule">
         <Program />
     </div>
 </div>
