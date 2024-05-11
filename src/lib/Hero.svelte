@@ -12,35 +12,35 @@
         <div class="grid-flow-cols grid auto-cols-min grid-cols-5 gap-2 py-10 md:gap-4">
             <!-- CSI LOGO -->
             <div class="col-span-1 flex items-center justify-center">
-                <a href="https://up-csi.org/">
+                <a href="https://up-csi.org/" target="_blank">
                     <img alt="CSI_logo" src={CSI} class="h-auto max-h-16" />
                 </a>
             </div>
 
             <!-- PARSER LOGO -->
             <div class="col-span-1 flex items-center justify-center">
-                <a href="https://www.facebook.com/upparser/">
+                <a href="https://www.facebook.com/upparser/" target="_blank">
                     <img alt="PARSER_logo" src={PARSER} class="h-auto max-h-12" />
                 </a>
             </div>
 
             <!-- CSWEEK LOGO -->
             <div class="col-span-2 flex items-center justify-center">
-                <a href="https://www.facebook.com/up.cs.week">
+                <a href="https://www.facebook.com/up.cs.week" target="_blank">
                     <img alt="CSWEEK_logo" src={CSWEEK} class="h-auto max-h-8" />
                 </a>
             </div>
 
             <!-- DCS LOGO -->
             <div class="col-span-1 flex items-center justify-center">
-                <a href="https://dcs.upd.edu.ph/">
+                <a href="https://dcs.upd.edu.ph/" target="_blank">
                     <img alt="DCS_logo" src={DCS} class="h-auto max-h-12" />
                 </a>
             </div>
         </div>
 
         <!-- SVELTE SURGE LOGO -->
-        <div class="py-10">
+        <div class="grid justify-items-center py-10">
             <img alt="svelte_surge_logo" src={logo_ic} class="h-44 w-max sm:h-60 md:h-96" />
         </div>
 
