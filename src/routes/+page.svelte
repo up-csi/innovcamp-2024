@@ -1,14 +1,14 @@
 <script lang="ts">
     import Hero from '$lib/Hero.svelte';
-    import Program from '$lib/program.svelte';
+    import Program from "$lib/program.svelte";
 </script>
 
 <div class="flex flex-col">
-    <div class="h-height">
+    <div class="">
         <Hero />
     </div>
 
-    <div class="h-10/12">
+    <div class="">
         <Program />
     </div>
 </div>
