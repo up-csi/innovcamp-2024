@@ -1,6 +1,6 @@
 <script lang="ts">
     import Hero from '$lib/Hero.svelte';
-    import Program from "$lib/program.svelte";
+    import Program from '$lib/program.svelte';
 </script>
 
 <div class="flex flex-col">

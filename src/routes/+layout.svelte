@@ -12,7 +12,7 @@
     slotDefault="self-center justify-self-end text-center"
     slotTrail="place-content-end"
     background="bg-white/[0.8]"
-    class="sticky top-0 z-[100] drop-shadow-md font-['Bebas_Neue'] text-xl"
+    class="sticky top-0 z-[100] font-['Bebas_Neue'] text-xl drop-shadow-md"
 >
     <div slot="lead"><a href="#top"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
     <div class="grid grid-cols-4 gap-8">
@@ -22,9 +22,13 @@
         <a class="anchor" href="/">About UP CSI</a>
     </div>
     <div slot="trail">
-        <a href="https://forms.gle/NEBjJimhi5FFcRQs9" target="_blank"><button type="button" class="text-xl variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-white drop-shadow-sm"
-            >Register Here</button
-        ></a>
+        <a href="https://forms.gle/NEBjJimhi5FFcRQs9" target="_blank"
+            ><button
+                type="button"
+                class="variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-xl text-white drop-shadow-sm"
+                >Register Here</button
+            ></a
+        >
     </div>
 </AppBar>
 
@@ -64,7 +68,7 @@
 
     <div slot="trail" class="grid grid-cols-1 gap-4 text-right">
         <p>Alumni Engineers Centennial Hall, Velasquez Street, University of the Philippines Diliman, QC</p>
-        <div><a class="anchor" href="https://up-csi.org/">https://up-csi.org/</a></div>
+        <div><a class="anchor" href="https://up-csi.org/" target="_blank">https://up-csi.org/</a></div>
         <div><a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a></div>
     </div>
 </AppBar>
