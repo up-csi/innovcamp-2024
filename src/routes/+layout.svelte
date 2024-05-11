@@ -12,7 +12,7 @@
     slotDefault="self-center justify-self-end text-center"
     slotTrail="place-content-end"
     background="bg-white/[0.8]"
-    class="sticky top-0 z-[100] drop-shadow-md"
+    class="sticky top-0 z-[100] drop-shadow-md font-['Bebas_Neue'] text-xl"
 >
     <div slot="lead"><a href="/"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
     <div class="grid grid-cols-4 gap-8">
@@ -22,9 +22,9 @@
         <a class="anchor" href="/">About UP CSI</a>
     </div>
     <div slot="trail">
-        <button type="button" class="variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-white drop-shadow-sm"
+        <a><button type="button" class="text-xl variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-white drop-shadow-sm"
             >Register Here</button
-        >
+        ></a>
     </div>
 </AppBar>
 

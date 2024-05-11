@@ -12,7 +12,7 @@
 </script>
 
 <div class="grid justify-items-center gap-4 bg-[#323D42] py-12 text-center">
-    <h1 class="h1 h-fit text-white">Innov Camp Program</h1>
+    <h1 class="h1 h-fit text-white font-['Bebas_Neue']">Innov Camp Program</h1>
     <div class="my-2 grid w-8/12 rounded-lg bg-[#D9D9D9] px-16 py-4">
         {#each tableArr as row}
             <div class="my-4 flex justify-between gap-32">
