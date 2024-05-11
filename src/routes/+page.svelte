@@ -4,11 +4,11 @@
 </script>
 
 <div class="flex flex-col">
-    <div class="h-screen">
+    <div class="h-height">
         <Hero />
     </div>
 
-    <div class="h-screen">
+    <div class="h-10/12">
         <Program />
     </div>
 </div>

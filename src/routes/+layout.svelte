@@ -11,10 +11,10 @@
     gridColumns="grid-cols-[auto_1fr_auto]"
     slotDefault="self-center justify-self-end text-center"
     slotTrail="place-content-end"
-    background="bg-[#D9D9D9]"
-    class="sticky top-0 z-[100]"
+    background="bg-white/[0.8]"
+    class="sticky top-0 z-[100] drop-shadow-md"
 >
-    <div slot="lead"><a href="/"><img src="box.svg" alt="Box Logo" class="size-16"></a></div>
+    <div slot="lead"><a href="/"><img src="box.svg" alt="Box Logo" class="size-12"></a></div>
     <div class="grid grid-cols-4 gap-8">
         <a class="anchor" href="/">About Event</a>
         <a class="anchor" href="/">Speakers</a>
@@ -22,7 +22,7 @@
         <a class="anchor" href="/">About UP CSI</a>
     </div>
     <div slot="trail">
-        <button type="button" class="variant-filled btn bg-[#FF6534] mx-4 text-white rounded-lg">Register Here</button>
+        <button type="button" class="variant-filled btn bg-[#FF6534] mx-4 text-white rounded-lg drop-shadow-sm">Register Here</button>
     </div>
 </AppBar>
 
@@ -33,7 +33,8 @@
     slotDefault="self-center text-center"
     slotTrail="place-content-end"
     background="bg-[#323D42]"
-    class="text-white flex"
+    class="text-white flex border-t-8 border-t-[#FF6534]"
+    border=""
 >
     <div slot="lead" class="grid grid-cols-1 gap-4">
         <a class="anchor flex gap-2 items-center" href="https://www.facebook.com/upcsi/">
