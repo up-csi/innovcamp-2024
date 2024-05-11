@@ -11,6 +11,8 @@
     gridColumns="grid-cols-[auto_1fr_auto]"
     slotDefault="self-center justify-self-end text-center"
     slotTrail="place-content-end"
+    background="bg-[#D9D9D9]"
+    class="sticky top-0 z-[100]"
 >
     <div slot="lead"><a href="/"><img src="box.svg" alt="Box Logo" class="size-16"></a></div>
     <div class="grid grid-cols-4 gap-8">
@@ -20,7 +22,7 @@
         <a class="anchor" href="/">About UP CSI</a>
     </div>
     <div slot="trail">
-        <button type="button" class="variant-filled btn bg-black text-white">Register Here</button>
+        <button type="button" class="variant-filled btn bg-[#FF6534] mx-4 text-white rounded-lg">Register Here</button>
     </div>
 </AppBar>
 

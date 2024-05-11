@@ -11,7 +11,7 @@
     ]
 </script>
 
-<div class="text-center grid align-start justify-items-center gap-4">
+<div class="h-screen text-center grid align-start justify-items-center gap-4">
     <h1 class="h1 h-fit">Innov Camp Program</h1>
     <div class="grid my-2 py-4 px-16 rounded-lg bg-[#D9D9D9] w-8/12">
         {#each tableArr as row, i}
