@@ -40,7 +40,7 @@
         </div>
 
         <!-- SVELTE SURGE LOGO -->
-        <div class="py-10 grid justify-items-center">
+        <div class="grid justify-items-center py-10">
             <img alt="svelte_surge_logo" src={logo_ic} class="h-44 w-max sm:h-60 md:h-96" />
         </div>
 
