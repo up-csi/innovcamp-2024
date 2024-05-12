@@ -8,7 +8,7 @@
     <h1 class="text-center py-10 text-4xl align-middle">MEET THE SPEAKERS</h1>
     <div class="grid md:grid-cols-2">
 
-        <div class="flex px-12 justify-center items-center flex-col gap-7">
+        <div class="speaker flex px-12 justify-center items-center flex-col gap-7">
             <!-- TODO: Change Speaker's Avatar -->
             <Avatar class="w-16 md:w-48 lg:w-72 justify-self-center" src="https://images.unsplash.com/photo-1617296538902-887900d9b592?ixid=M3w0Njc5ODF8MHwxfGFsbHx8fHx8fHx8fDE2ODc5NzExMDB8&ixlib=rb-4.0.3&w=128&h=128&auto=format&fit=crop" width="w-32" rounded="rounded-full" />
 
@@ -42,7 +42,7 @@
         </div>
 
         <!-- TODO: Add Speaker 2 -->
-        <div class="flex px-12 justify-center items-center flex-col gap-7">
+        <div class="speaker flex px-12 justify-center items-center flex-col gap-7">
 
             <!-- TODO: Change Speaker's Avatar -->
             <Avatar class="w-16 md:w-48 lg:w-72 justify-self-center" src="https://images.unsplash.com/photo-1617296538902-887900d9b592?ixid=M3w0Njc5ODF8MHwxfGFsbHx8fHx8fHx8fDE2ODc5NzExMDB8&ixlib=rb-4.0.3&w=128&h=128&auto=format&fit=crop" width="w-32" rounded="rounded-full" />
@@ -72,3 +72,12 @@
         </div>
     </div>
 </div>
+
+<style>
+    .speaker {
+        margin: 5%;
+        border-radius: 25px;
+        padding: 5% 10%;
+        background-color: white; /* Change to different shade of page bg */
+    }
+</style>
