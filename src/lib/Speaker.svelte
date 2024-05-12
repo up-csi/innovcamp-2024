@@ -18,7 +18,7 @@
         <div class="flex flex-col flex-auto md:w-72 items-center justify-center">
             <!-- TODO: Change Speaker's Avatar -->
             <Avatar
-                class="w-16 md:w-48 lg:w-64 mb-5"
+                class="w-48 lg:w-64 mb-5"
                 src="{Basti}"
                 width="w-32"
                 rounded="rounded-full"
@@ -44,12 +44,10 @@
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
                     <p>
-                    Trusted Author at DEV
-                    </p>
-                    <br>
-                    
+                    Trusted Author at DEV 
+                    </p>      
                 </li>
-                <div class="flex items-center justify-center gap-2 py-2">
+                <div class="flex items-center justify-center sm:gap-2 py-2">
                     <span class="badge variant-filled bg-[#FF6534] rounded-lg text-center">19,000+ <br> Followers</span>
                     <span class="badge variant-filled bg-[#FF6534] rounded-lg text-center">636,000+ <br> Total post views worldwide</span>
                 </div>
