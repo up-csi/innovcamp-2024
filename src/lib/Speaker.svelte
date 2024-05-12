@@ -1,79 +1,86 @@
 <script>
     import { Avatar } from '@skeletonlabs/skeleton';
     import Basti from '$lib/assets/basti-ortiz.jpeg'
+    import DevToLogo from './dev-to-logo.svelte';
     import GithubIcon from './github-logo.svelte';
+    import Lightning from './lightning.svelte';
     import LinkedinIcon from './linkedin-logo.svelte';
 </script>
 
-<div class="grid justify-items-center border-t-8 border-t-[#FF6534] bg-[#323D42] px-8">
-    <h1 class="h1 h-fit pb-6 pt-8 align-middle font-['Bebas_Neue'] text-5xl text-white lg:text-6xl">
+<div class="grid justify-items-center gap-0 border-t-8 border-t-[#FF6534] bg-[#323D42] py-8 text-center text-sm sm:text-base md:gap-4">
+    <h1 class="h1 h-fit text-center font-['Bebas_Neue'] text-5xl text-white lg:text-6xl">
         MEET THE SPEAKER
     </h1>
-    <div class="flex">
-        <div
-            class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-10 px-12 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900"
-        >
-            <div class="flex-auto w-64">
-                <!-- TODO: Change Speaker's Avatar -->
-                <Avatar
-                    class="w-16 justify-self-center md:w-48 lg:w-64 mb-5"
-                    src="{Basti}"
-                    width="w-32"
-                    rounded="rounded-full"
-                />
 
-                <div class="flex flex-col items-center gap-2 text-center font-['Bebas_Neue'] text-2xl">
-                    <h2>Sebastian Luis Ortiz</h2>
-                    <h3 class="text-wrap text-[#FF6534]">UP CSI Director for Engineering</h3>
-                    <hr class="w-48" />
-                </div>
+    <div
+        class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-10 my-4 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900 p-10 w-11/12 md:w-10/12 rounded-3xl bg-[#D9D9D9]"
+    >
+        <div class="flex flex-col flex-auto md:w-72 items-center justify-center">
+            <!-- TODO: Change Speaker's Avatar -->
+            <Avatar
+                class="w-16 md:w-48 lg:w-64 mb-5"
+                src="{Basti}"
+                width="w-32"
+                rounded="rounded-full"
+            />
+
+            <div class="flex flex-col items-center gap-2 text-center font-['Bebas_Neue'] text-2xl">
+                <h2>Sebastian Luis Ortiz</h2>
+                <h3 class="text-wrap text-[#FF6534]">UP CSI Director for Engineering</h3>
+                <hr class="w-48" />
             </div>
+        </div>
 
-            <div class="flex-auto w-64">
-                <ul class="list-disc">
-                    <li>Full-stack web developer with 8 years of experience</li>
-                    <li>NDSL Researcher under Dr. Wilson M. Tan <br>(uses Svelte for CS 199)</li>
-                    <li>
-                        Trusted Author at DEV <a
-                            href="https://dev.to/somedood"
-                            target="_blank"
-                            class="text-[#FF6534] hover:underline">@somedood</a
-                        >
-                        <ul class="ml-8 list-disc">
-                            <li>19,000+ Followers</li>
-                            <li>636,000+ Total Post Views from around the world</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Open-source Contributor <a
-                            href="https://github.com/BastiDood"
-                            target="_blank"
-                            class="text-[#FF6534] hover:underline">@BastiDood</a
-                        >
-                    </li>
-                    <li>Also known as a legend of the #acad-inquiries</li>
-                </ul>
+        <div class="flex-auto w-54 md:w-72 text-left">
+            <ul class="list-disc">
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Lightning />
+                    <p>Full-stack web developer with 8 years of experience</p>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Lightning />
+                    <p>NDSL Researcher under Dr. Wilson M. Tan (uses Svelte for CS 199)</p>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Lightning />
+                    <p>
+                    Trusted Author at DEV
+                    </p>
+                    <br>
+                    
+                </li>
+                <div class="flex items-center justify-center gap-2 py-2">
+                    <span class="badge variant-filled bg-[#FF6534] rounded-lg text-center">19,000+ <br> Followers</span>
+                    <span class="badge variant-filled bg-[#FF6534] rounded-lg text-center">636,000+ <br> Total post views worldwide</span>
+                </div>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Lightning />
+                    <p>Open-source Contributor <a
+                        href="https://github.com/BastiDood"
+                        target="_blank"
+                        class="text-[#FF6534] hover:underline">@BastiDood</a
+                    >
+                    </p>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Lightning />
+                    <p>Also known as a legend of the #acad-inquiries</p>
+                </li>
+            </ul>
 
-                <div class="mt-auto grid h-10 w-20 grid-cols-2 place-content-center items-end gap-4">
+            <div class="flex items-center justify-center">
+                <div class="mt-auto grid h-10 w-20 grid-cols-3 place-content-center items-end gap-4">
                     <!-- TODO: Change Speaker's Links -->
-                    <a href="/" target="_blank"> <LinkedinIcon /> </a>
-                    <a href="https://github.com/BastiDood" target="_blank"> <GithubIcon /> </a>
+                    <a href="/" target="_blank"><LinkedinIcon /></a>
+                    <a href="https://github.com/BastiDood" target="_blank"> <GithubIcon /></a>
+                    <a href="https://dev.to/somedood" target="_blank"><DevToLogo /></a>
                 </div>
             </div>
-
-            
         </div>
     </div>
 </div>
 
 <style>
-    .speaker {
-        margin: 5%;
-        border-radius: 25px;
-        padding: 5% 10%;
-        background-color: #d9d9d9;
-    }
-
     h1 {
         text-shadow: 1.5px 1.5px 0px #ff6534;
     }
