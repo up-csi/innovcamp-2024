@@ -11,9 +11,11 @@
     ];
 </script>
 
-<div class="grid border-t-8 border-t-[#FF6534] justify-items-center gap-0 md:gap-4 bg-[#323D42] py-8 text-center text-sm sm:text-base">
+<div
+    class="grid justify-items-center gap-0 border-t-8 border-t-[#FF6534] bg-[#323D42] py-8 text-center text-sm sm:text-base md:gap-4"
+>
     <h1 class="h1 h-fit font-['Bebas_Neue'] text-white">Innov Camp Program</h1>
-    <div class="grid w-11/12 md:w-10/12 lg:8/12 rounded-3xl bg-[#D9D9D9] my-4 px-8 md:px-16 py-4">
+    <div class="lg:8/12 my-4 grid w-11/12 rounded-3xl bg-[#D9D9D9] px-8 py-4 md:w-10/12 md:px-16">
         {#each tableArr as row}
             <div class="my-4 flex justify-between gap-32">
                 <p class="text-left">{row.event}</p>

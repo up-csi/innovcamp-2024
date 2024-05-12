@@ -4,7 +4,7 @@
     import LinkedinIcon from './linkedin-logo.svelte';
 </script>
 
-<div class="grid justify-items-center bg-[#323D42] px-8 border-t-8 border-t-[#FF6534]">
+<div class="grid justify-items-center border-t-8 border-t-[#FF6534] bg-[#323D42] px-8">
     <h1 class="h1 h-fit pb-6 pt-8 align-middle font-['Bebas_Neue'] text-white">MEET THE SPEAKERS</h1>
     <div class="grid md:grid-cols-2">
         <div
