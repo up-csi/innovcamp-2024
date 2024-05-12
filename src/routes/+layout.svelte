@@ -16,7 +16,7 @@
 >
     <div slot="lead"><a href="#top"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
     <div class="grid grid-cols-4 gap-8">
-        <a class="anchor" href="/">About Event</a>
+        <a class="anchor" href="#about">About Event</a>
         <a class="anchor" href="/">Speakers</a>
         <a class="anchor" href="#schedule">Schedule</a>
         <a class="anchor" href="/">About UP CSI</a>
