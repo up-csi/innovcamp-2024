@@ -29,7 +29,7 @@
                     <li>NDSL Researcher under Dr. Wilson M. Tan (uses Svelte for CS 199)</li>
                     <li>
                         Trusted Author at DEV <a
-                            href="https://dev.to/dashboard"
+                            href="https://dev.to/somedood"
                             target="_blank"
                             class="text-[#FF6534] hover:underline">@somedood</a
                         >
