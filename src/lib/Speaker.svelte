@@ -13,7 +13,7 @@
     </h1>
 
     <div
-        class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-10 my-4 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900 p-10 w-11/12 md:w-10/12 rounded-3xl bg-[#D9D9D9]"
+        class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-10 my-4 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900 p-10 w-11/12 md:w-10/12 max-w-[60rem] rounded-3xl bg-[#D9D9D9]"
     >
         <div class="flex flex-col flex-auto md:w-72 items-center justify-center">
             <!-- TODO: Change Speaker's Avatar -->
