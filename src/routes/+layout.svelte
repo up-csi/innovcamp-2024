@@ -12,20 +12,24 @@
     slotDefault="self-center justify-self-end text-center"
     slotTrail="place-content-end"
     background="bg-white/[0.8]"
-    class="sticky top-0 z-[100] font-['Bebas_Neue'] text-xl drop-shadow-md"
+    class="sm:text-md sticky top-0 z-[100] font-['Bebas_Neue'] text-sm drop-shadow-md md:text-lg"
 >
-    <div slot="lead"><a href="#top"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
-    <div class="grid grid-cols-4 gap-8">
-        <a class="anchor" href="#about">About Event</a>
-        <a class="anchor" href="#speakers">Speakers</a>
-        <a class="anchor" href="#schedule">Schedule</a>
-        <a class="anchor" href="#about-csi">About UP CSI</a>
+    <div slot="lead" class="">
+        <a href="#top">
+            <img src="box.svg" alt="Box Logo" class="size-12" />
+        </a>
+    </div>
+    <div class="hidden grid-cols-4 gap-8 sm:grid">
+        <a class="anchor no-underline hover:underline" href="#about">About Event</a>
+        <a class="anchor no-underline hover:underline" href="#speakers">Speakers</a>
+        <a class="anchor no-underline hover:underline" href="#schedule">Schedule</a>
+        <a class="anchor no-underline hover:underline" href="#about-csi">About UP CSI</a>
     </div>
     <div slot="trail">
         <a href="https://forms.gle/NEBjJimhi5FFcRQs9" target="_blank"
             ><button
                 type="button"
-                class="variant-filled btn mx-4 rounded-lg bg-[#FF6534] text-xl text-white drop-shadow-sm"
+                class="variant-filled btn ml-4 rounded-lg bg-[#FF6534] text-xl text-white drop-shadow-sm"
                 >Register Here</button
             ></a
         >
