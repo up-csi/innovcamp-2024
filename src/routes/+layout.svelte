@@ -19,7 +19,7 @@
         <a class="anchor" href="/">About Event</a>
         <a class="anchor" href="#speakers">Speakers</a>
         <a class="anchor" href="#schedule">Schedule</a>
-        <a class="anchor" href="/">About UP CSI</a>
+        <a class="anchor" href="#about-csi">About UP CSI</a>
     </div>
     <div slot="trail">
         <a href="https://forms.gle/NEBjJimhi5FFcRQs9" target="_blank"
