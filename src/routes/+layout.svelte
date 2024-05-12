@@ -14,7 +14,11 @@
     background="bg-white/[0.8]"
     class="sticky top-0 z-[100] font-['Bebas_Neue'] text-xl drop-shadow-md"
 >
-    <div slot="lead"><a href="#top"><img src="box.svg" alt="Box Logo" class="size-12" /></a></div>
+    <div slot="lead">
+        <a href="#top">
+            <img src="box.svg" alt="Box Logo" class="size-12" />
+        </a>
+    </div>
     <div class="grid grid-cols-4 gap-8">
         <a class="anchor" href="#about">About Event</a>
         <a class="anchor" href="#speakers">Speakers</a>
