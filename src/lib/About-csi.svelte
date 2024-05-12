@@ -3,7 +3,9 @@
     import Git_Workshop from '$lib/assets/git-workshop-pic.jpg';
 </script>
 
-<div class="flex flex-col items-center gap-10 bg-[#323D42] px-8 py-24 md:px-24 lg:grid lg:grid-cols-3 lg:grid-rows-3">
+<div
+    class="flex flex-col items-center gap-10 border-t-8 border-t-[#FF6534] bg-[#323D42] px-8 pb-16 pt-8 md:px-24 lg:grid lg:grid-cols-3 lg:grid-rows-3"
+>
     <div class="flex gap-10 justify-self-center lg:col-span-2 lg:row-span-1 lg:justify-self-start">
         <a href="https://up-csi.org/" target="_blank">
             <img alt="CSI_logo" src={CSI} class="h-32 lg:h-48" />

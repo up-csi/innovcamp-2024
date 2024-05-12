@@ -34,15 +34,10 @@
 
 <slot />
 
-<AppBar
-    gridColumns="sm:grid-cols-3"
-    slotDefault="self-center text-center"
-    slotTrail="place-content-end"
-    background="bg-[#323D42]"
-    class="flex border-t-8 border-t-[#FF6534] text-white"
-    border=""
+<div
+    class="grid grid-cols-1 justify-items-center gap-6 border-t-8 border-t-[#FF6534] bg-[#323D42] p-4 text-white sm:grid-cols-3 sm:justify-items-stretch sm:gap-0"
 >
-    <div slot="lead" class="grid grid-cols-1 gap-4">
+    <div class="order-1 grid grid-cols-1 gap-4 self-center text-center">
         <a class="anchor flex items-center gap-2" href="https://www.facebook.com/upcsi/" target="_blank">
             <FacebookLogo class="size-8"></FacebookLogo>
             @upcsi
@@ -61,14 +56,14 @@
         </a>
     </div>
 
-    <div class="grid grid-cols-1 gap-4">
+    <div class="order-0 grid grid-cols-1 gap-4 self-center text-center sm:order-2">
         <img src="UPCSI_Logo_White 1.svg" alt="UP CSI logo" class="size-32 justify-self-center" />
         <p class="font-bold">Learn. Create. Innovate.</p>
     </div>
 
-    <div slot="trail" class="grid grid-cols-1 gap-4 text-right">
-        <p>Alumni Engineers Centennial Hall, Velasquez Street, University of the Philippines Diliman, QC</p>
+    <div class="order-3 grid grid-cols-1 place-content-end gap-4 self-center text-center sm:text-right">
         <div><a class="anchor" href="https://up-csi.org/" target="_blank">https://up-csi.org/</a></div>
         <div><a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a></div>
+        <p>Alumni Engineers Centennial Hall, Velasquez Street, University of the Philippines Diliman, QC</p>
     </div>
-</AppBar>
+</div>

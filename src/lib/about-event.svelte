@@ -3,12 +3,12 @@
     import SvelteIcon from './svelte-icon.svelte';
 </script>
 
-<div class="bg-[#323d42]">
+<div class="border-t-8 border-t-[#FF6534] bg-[#323d42]">
     <div class="flex justify-center pt-8">
         <div class="h-100 w-100 mr-5 justify-self-center">
             <Box height="100px" width="100px" />
         </div>
-        <h1 class="max-w-1/4 place-content-center text-center font-['Bebas_Neue'] text-8xl text-white">
+        <h1 class="max-w-1/4 place-content-center text-center font-['Bebas_Neue'] text-5xl text-white lg:text-8xl">
             Innov Camp 2024
         </h1>
     </div>
@@ -45,3 +45,9 @@
         </div>
     </div>
 </div>
+
+<style>
+    h1 {
+        text-shadow: 1.5px 1.5px 0px #ff6534;
+    }
+</style>
