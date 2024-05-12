@@ -11,9 +11,9 @@
         <Hero />
     </div>
 
-    <div class="" id="about">
+    <!-- <div class="" id="about">
         <About />
-    </div>
+    </div> -->
 
     <div class="" id="schedule">
         <Program />
@@ -23,7 +23,7 @@
         <Speaker />
     </div>
 
-    <div class="" id="about-csi">
+    <!-- <div class="" id="about-csi">
         <AboutCsi />
-    </div>
+    </div> -->
 </div>
