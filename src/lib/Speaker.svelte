@@ -11,27 +11,28 @@
     </h1>
     <div class="flex">
         <div
-            class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-7 px-12 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900"
+            class="speaker flex cursor-pointer flex-col md:flex-row items-center gap-10 px-12 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900"
         >
-            <div>
+            <div class="flex-auto w-64">
                 <!-- TODO: Change Speaker's Avatar -->
                 <Avatar
-                    class="w-16 justify-self-center md:w-48 lg:w-72"
+                    class="w-16 justify-self-center md:w-48 lg:w-64 mb-5"
                     src="{Basti}"
                     width="w-32"
                     rounded="rounded-full"
                 />
 
                 <div class="flex flex-col items-center gap-2 text-center font-['Bebas_Neue'] text-2xl">
-                    <h2>Sebasitan Luis Ortiz</h2>
+                    <h2>Sebastian Luis Ortiz</h2>
                     <h3 class="text-wrap text-[#FF6534]">UP CSI Director for Engineering</h3>
                     <hr class="w-48" />
                 </div>
             </div>
 
-            <div>
+            <div class="flex-auto w-64">
                 <ul class="list-disc">
-                    <li>NDSL Researcher under Dr. Wilson M. Tan (uses Svelte for CS 199)</li>
+                    <li>Full-stack web developer with 8 years of experience</li>
+                    <li>NDSL Researcher under Dr. Wilson M. Tan <br>(uses Svelte for CS 199)</li>
                     <li>
                         Trusted Author at DEV <a
                             href="https://dev.to/somedood"
