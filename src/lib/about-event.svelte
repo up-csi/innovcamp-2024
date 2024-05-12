@@ -8,7 +8,7 @@
         <div class="h-100 w-100 mr-5 justify-self-center">
             <Box height="100px" width="100px" />
         </div>
-        <h1 class="max-w-1/4 place-content-center text-center font-['Bebas_Neue'] lg:text-8xl text-5xl text-white">
+        <h1 class="max-w-1/4 place-content-center text-center font-['Bebas_Neue'] text-5xl text-white lg:text-8xl">
             Innov Camp 2024
         </h1>
     </div>
