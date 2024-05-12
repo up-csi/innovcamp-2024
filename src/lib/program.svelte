@@ -22,3 +22,9 @@
         {/each}
     </div>
 </div>
+
+<style>
+    h1 {
+        text-shadow: 1.5px 1.5px 0px #ff6534;
+    }
+</style>
