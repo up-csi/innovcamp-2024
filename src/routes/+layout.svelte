@@ -1,8 +1,7 @@
 <script lang="ts">
+    import './app.css'
     import { AppBar } from '@skeletonlabs/skeleton';
 </script>
-
-<slot />
 
 <AppBar
     gridColumns="grid-cols-[auto_1fr_auto]"
@@ -20,3 +19,5 @@
         <button type="button" class="variant-filled btn bg-black text-white">Button</button>
     </div>
 </AppBar>
+
+<slot />
