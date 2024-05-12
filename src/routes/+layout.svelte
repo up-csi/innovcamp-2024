@@ -72,5 +72,3 @@
         <div><a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a></div>
     </div>
 </AppBar>
-
-<slot />
