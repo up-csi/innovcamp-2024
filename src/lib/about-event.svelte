@@ -3,7 +3,7 @@
     import SvelteIcon from './svelte-icon.svelte';
 </script>
 
-<div class="bg-[#323d42]">
+<div class="bg-[#323d42] border-t-8 border-t-[#FF6534]">
     <div class="flex justify-center pt-8">
         <div class="h-100 w-100 mr-5 justify-self-center">
             <Box height="100px" width="100px" />
