@@ -1,5 +1,7 @@
 <script>
+    // eslint-disable-next-line init-declarations
     export let height;
+    // eslint-disable-next-line init-declarations
     export let width;
 </script>
 
