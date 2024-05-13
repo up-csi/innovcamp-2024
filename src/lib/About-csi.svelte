@@ -10,7 +10,7 @@
         <a href="https://up-csi.org/" target="_blank">
             <img alt="CSI_logo" src={CSI} class="h-24 sm:h-32 lg:h-48" />
         </a>
-        <h1 class="h1 h-fit pt-4 font-['Bebas_Neue'] text-white sm:text-5xl lg:text-8xl">
+        <h1 class="h1 h-fit pt-4 font-['Bebas_Neue'] text-white sm:text-5xl lg:text-7xl">
             ABOUT THE <br /> ORGANIZATION
         </h1>
     </div>
