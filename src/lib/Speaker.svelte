@@ -16,7 +16,6 @@
         class="speaker my-4 flex w-11/12 max-w-[60rem] cursor-pointer flex-col items-center gap-10 rounded-3xl bg-[#D9D9D9] p-10 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900 md:w-10/12 md:flex-row"
     >
         <div class="flex flex-auto flex-col items-center justify-center md:w-72">
-            <!-- TODO: Change Speaker's Avatar -->
             <Avatar class="mb-5 w-48 lg:w-64" src={Basti} width="w-32" rounded="rounded-full" />
 
             <div class="flex flex-col items-center gap-2 text-center font-['Bebas_Neue'] text-2xl">
@@ -26,19 +25,19 @@
             </div>
         </div>
 
-        <div class="w-54 flex-auto text-left md:w-72">
+        <div class="w-54 inter flex-auto text-left md:w-72">
             <ul class="list-disc">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Full-stack web developer with 8 years of experience</p>
+                    <p><b class="font-bold">Full-stack web developer</b> with 8 years of experience</p>
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>NDSL Researcher under Dr. Wilson M. Tan (uses Svelte for CS 199)</p>
+                    <p><b class="font-bold">NDSL Researcher</b> under Dr. Wilson M. Tan (uses Svelte for CS 199)</p>
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Trusted Author at DEV</p>
+                    <p class="font-bold">Trusted Author at DEV</p>
                 </li>
                 <div class="flex items-center justify-center py-2 sm:gap-2">
                     <span class="variant-filled badge rounded-lg bg-[#FF6534] text-center"
@@ -60,14 +59,14 @@
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Also known as a legend of the #acad-inquiries</p>
+                    <p>Also known as a legend of the <b class="font-bold">#acad-inquiries</b></p>
                 </li>
             </ul>
 
             <div class="flex items-center justify-center">
-                <div class="mt-auto grid h-10 w-20 grid-cols-3 place-content-center items-end gap-4">
+                <div class="mt-auto grid h-10 w-36 grid-cols-3 items-end justify-items-center gap-4">
                     <!-- TODO: Change Speaker's Links -->
-                    <a href="/" target="_blank"><LinkedinIcon /></a>
+                    <a href="https://www.linkedin.com/in/basti-ortiz/" target="_blank"><LinkedinIcon /></a>
                     <a href="https://github.com/BastiDood" target="_blank"> <GithubIcon /></a>
                     <a href="https://dev.to/somedood" target="_blank"><DevToLogo /></a>
                 </div>

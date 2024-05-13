@@ -22,7 +22,7 @@
     <div class="mt-4 grid-cols-5 items-center justify-center gap-x-10 lg:ml-10 lg:mt-8 lg:grid 2xl:mt-3">
         <div class="grid lg:col-span-3">
             <p
-                class="text-m w-fit px-8 py-4 text-center text-white md:text-lg lg:ml-12 lg:w-5/6 lg:text-2xl 2xl:ml-0 2xl:mt-3 2xl:w-fit"
+                class="inter text-m w-fit px-8 py-4 text-center text-white md:text-lg lg:ml-12 lg:w-5/6 lg:text-2xl 2xl:ml-0 2xl:mt-3 2xl:w-fit"
             >
                 This year's InnovCamp coincides with the esteemed Department of Computer Science CS Week, primed to
                 ignite the spirit of innovation and technological prowess. Geared towards those with a keen interest in
@@ -51,7 +51,7 @@
             <p class="col-span-2 row-span-1 mx-2 mb-5 text-center text-sm md:text-lg 2xl:text-2xl">
                 More and more companies and websites are adopting a fresher new framework: Svelte!
             </p>
-            <p class="col-span-2 row-span-2 mx-2 text-center text-sm md:text-lg 2xl:text-2xl">
+            <p class="inter col-span-2 row-span-2 mx-2 text-center text-sm md:text-lg 2xl:text-2xl">
                 Svelte offers a simple, modular approach to front-end development, with quick performance, a
                 runtime-less concept, a component-based model that allows rapid testing, and bandwidth efficiency true
                 to its name.

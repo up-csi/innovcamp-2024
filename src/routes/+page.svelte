@@ -6,7 +6,7 @@
     import Speaker from '$lib/Speaker.svelte';
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col overflow-hidden">
     <div class="">
         <Hero />
     </div>
