@@ -41,7 +41,7 @@
 
         <!-- SVELTE SURGE LOGO -->
         <div class="flex justify-items-center py-10">
-            <img alt="svelte_surge_logo" src={logo_ic} class="h-44 w-max sm:h-60 md:h-96" />
+            <img alt="svelte_surge_logo" src={logo_ic} class="h-44 sm:h-60 md:h-96" />
         </div>
 
         <!-- SCHED, AECH VENUE DETAILS -->
