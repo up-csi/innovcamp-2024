@@ -29,15 +29,15 @@
             <ul class="list-disc">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Full-stack web developer with 8 years of experience</p>
+                    <p><b class="font-bold">Full-stack web developer</b> with 8 years of experience</p>
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>NDSL Researcher under Dr. Wilson M. Tan (uses Svelte for CS 199)</p>
+                    <p><b class="font-bold">NDSL Researcher</b> under Dr. Wilson M. Tan (uses Svelte for CS 199)</p>
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Trusted Author at DEV</p>
+                    <p class="font-bold">Trusted Author at DEV</p>
                 </li>
                 <div class="flex items-center justify-center py-2 sm:gap-2">
                     <span class="variant-filled badge rounded-lg bg-[#FF6534] text-center"
@@ -59,14 +59,14 @@
                 </li>
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
-                    <p>Also known as a legend of the #acad-inquiries</p>
+                    <p>Also known as a legend of the <b class="font-bold">#acad-inquiries</b></p>
                 </li>
             </ul>
 
             <div class="flex items-center justify-center">
-                <div class="mt-auto grid h-10 w-20 grid-cols-3 place-content-center items-end gap-4">
+                <div class="mt-auto grid h-10 w-36 grid-cols-3 items-end justify-items-center gap-4">
                     <!-- TODO: Change Speaker's Links -->
-                    <a href="/" target="_blank"><LinkedinIcon /></a>
+                    <a href="https://www.linkedin.com/in/basti-ortiz/" target="_blank"><LinkedinIcon /></a>
                     <a href="https://github.com/BastiDood" target="_blank"> <GithubIcon /></a>
                     <a href="https://dev.to/somedood" target="_blank"><DevToLogo /></a>
                 </div>
