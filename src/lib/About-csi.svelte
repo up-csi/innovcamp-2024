@@ -17,7 +17,7 @@
         <img alt="Git Workshop" src={Git_Workshop} class="mx-10 max-w-sm rounded-2xl" />
     </div>
 
-    <div class="text-md flex flex-col gap-10 text-white lg:col-span-2 lg:row-span-2 lg:mx-12 lg:pb-20 lg:text-xl inter">
+    <div class="text-md inter flex flex-col gap-10 text-white lg:col-span-2 lg:row-span-2 lg:mx-12 lg:pb-20 lg:text-xl">
         <p>
             UP Center for Student Innovations (UP CSI) is a service-oriented organization aimed towards the enhancement
             of student learning from the University of the Philippines Diliman, Department of Computer Science by

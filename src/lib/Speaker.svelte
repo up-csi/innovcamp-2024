@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="w-54 flex-auto text-left md:w-72 inter">
+        <div class="w-54 inter flex-auto text-left md:w-72">
             <ul class="list-disc">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />

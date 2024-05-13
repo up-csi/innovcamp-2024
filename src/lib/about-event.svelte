@@ -15,7 +15,7 @@
 
     <div class="mx-20 mt-12 grid grid-cols-5 items-center justify-center gap-x-10">
         <div class="col-span-3 grid">
-            <p class="mb-12 px-8 py-4 text-center text-3xl text-white inter">
+            <p class="inter mb-12 px-8 py-4 text-center text-3xl text-white">
                 This year's InnovCamp coincides with the esteemed Department of Computer Science CS Week, primed to
                 ignite the spirit of innovation and technological prowess. Geared towards those with a keen interest in
                 Web Development, this event offers an immersive experience tailored to inspire, educate, and propel
@@ -34,10 +34,10 @@
                 </div>
             </div>
 
-            <p class="col-span-2 row-span-1 mx-10 mb-5 text-center text-2xl inter">
+            <p class="inter col-span-2 row-span-1 mx-10 mb-5 text-center text-2xl">
                 More and more companies and websites are adopting a fresher new framework: Svelte!
             </p>
-            <p class="col-span-2 row-span-2 mx-8 text-center text-2xl inter">
+            <p class="inter col-span-2 row-span-2 mx-8 text-center text-2xl">
                 Svelte offers a simple, modular approach to front-end development, with quick performance, a
                 runtime-less concept, a component-based model that allows rapid testing, and bandwidth efficiency true
                 to its name.
