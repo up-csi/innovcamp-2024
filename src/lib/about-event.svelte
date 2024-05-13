@@ -12,7 +12,9 @@
         <div class="place-content-center justify-self-center">
             <Box height={box_size} width={box_size} />
         </div>
-        <h1 class="w-2/3 place-content-center text-center font-['Bebas_Neue'] text-5xl text-white md:ml-4 md:w-fit md:text-6xl lg:text-7xl 2xl:w-fit 2xl:text-8xl">
+        <h1
+            class="w-2/3 place-content-center text-center font-['Bebas_Neue'] text-5xl text-white md:ml-4 md:w-fit md:text-6xl lg:text-7xl 2xl:w-fit 2xl:text-8xl"
+        >
             Innov Camp 2024
         </h1>
     </div>
