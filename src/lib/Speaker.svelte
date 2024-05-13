@@ -65,7 +65,7 @@
             </ul>
 
             <div class="flex items-center justify-center">
-                <div class="mt-auto grid h-10 w-36 grid-cols-3 justify-items-center items-end gap-4">
+                <div class="mt-auto grid h-10 w-36 grid-cols-3 items-end justify-items-center gap-4">
                     <!-- TODO: Change Speaker's Links -->
                     <a href="https://www.linkedin.com/in/basti-ortiz/" target="_blank"><LinkedinIcon /></a>
                     <a href="https://github.com/BastiDood" target="_blank"> <GithubIcon /></a>
