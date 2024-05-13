@@ -21,8 +21,8 @@
     </div>
     <div class="hidden grid-cols-4 gap-8 sm:grid">
         <a class="anchor no-underline hover:underline" href="#about">About Event</a>
-        <a class="anchor no-underline hover:underline" href="#speakers">Speakers</a>
         <a class="anchor no-underline hover:underline" href="#schedule">Schedule</a>
+        <a class="anchor no-underline hover:underline" href="#speakers">Speaker</a>
         <a class="anchor no-underline hover:underline" href="#about-csi">About UP CSI</a>
     </div>
     <div slot="trail">
