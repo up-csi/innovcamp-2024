@@ -16,7 +16,6 @@
         class="speaker my-4 flex w-11/12 max-w-[60rem] cursor-pointer flex-col items-center gap-10 rounded-3xl bg-[#D9D9D9] p-10 shadow-none transition duration-500 hover:scale-105 hover:cursor-default hover:shadow-xl hover:shadow-gray-900 md:w-10/12 md:flex-row"
     >
         <div class="flex flex-auto flex-col items-center justify-center md:w-72">
-            <!-- TODO: Change Speaker's Avatar -->
             <Avatar class="mb-5 w-48 lg:w-64" src={Basti} width="w-32" rounded="rounded-full" />
 
             <div class="flex flex-col items-center gap-2 text-center font-['Bebas_Neue'] text-2xl">
@@ -26,7 +25,7 @@
             </div>
         </div>
 
-        <div class="w-54 flex-auto text-left md:w-72">
+        <div class="w-54 flex-auto text-left md:w-72 inter">
             <ul class="list-disc">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <Lightning />
