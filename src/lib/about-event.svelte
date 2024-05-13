@@ -2,9 +2,9 @@
     import Box from './box.svelte';
     import SvelteIcon from './svelte-icon.svelte';
 
-    let box_size = '80px';
+    const box_size = '80px';
 
-    let svelte_size = '70px';
+    const svelte_size = '70px';
 </script>
 
 <div class="w-full border-t-8 border-t-[#FF6534] bg-[#323d42] pb-1">
