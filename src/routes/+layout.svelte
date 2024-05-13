@@ -7,6 +7,10 @@
     import TwitterLogo from '../lib/twitter-logo.svelte';
 </script>
 
+<svelte:head>
+    <link rel="icon" href="$lib/assets/box_white.svg" />
+</svelte:head>
+
 <AppBar
     gridColumns="grid-cols-[auto_1fr_auto]"
     slotDefault="self-center justify-self-end text-center"
