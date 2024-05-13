@@ -8,13 +8,13 @@
 >
     <div class="flex gap-10 justify-self-center lg:col-span-2 lg:row-span-1 lg:justify-self-start">
         <a href="https://up-csi.org/" target="_blank">
-            <img alt="CSI_logo" src={CSI} class="h-32 lg:h-48" />
+            <img alt="CSI_logo" src={CSI} class="h-24 sm:h-32 lg:h-48" />
         </a>
-        <h1 class="pt-4 font-['Bebas_Neue'] text-5xl text-white lg:text-8xl">ABOUT THE <br /> ORGANIZATION</h1>
+        <h1 class="pt-4 font-['Bebas_Neue'] h1 h-fit sm:text-5xl text-white lg:text-8xl">ABOUT THE <br /> ORGANIZATION</h1>
     </div>
 
     <div class="justify-self-center px-10 lg:col-span-1 lg:row-span-3">
-        <img alt="Git Workshop" src={Git_Workshop} class="mx-10 max-w-sm rounded-2xl" />
+        <img alt="Git Workshop" src={Git_Workshop} class="mx-10 max-w-sm rounded-2xl w-64 sm:w-max" />
     </div>
 
     <div class="text-md flex flex-col gap-10 text-white lg:col-span-2 lg:row-span-2 lg:mx-12 lg:pb-20 lg:text-xl">
