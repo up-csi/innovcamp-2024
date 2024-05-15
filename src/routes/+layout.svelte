@@ -39,7 +39,7 @@
 <slot />
 
 <div
-    class="inter grid grid-cols-1 justify-items-center gap-6 border-t-8 border-t-[#FF6534] bg-[#323D42] p-4 text-white sm:grid-cols-3 sm:justify-items-stretch sm:gap-0"
+    class="inter grid grid-cols-1 grid-rows-[auto_auto] justify-items-center gap-6 border-t-8 border-t-[#FF6534] bg-[#323D42] p-4 text-white sm:grid-cols-3 sm:justify-items-stretch sm:gap-0"
 >
     <div class="order-1 grid grid-cols-1 gap-4 self-center text-center">
         <a class="anchor flex items-center gap-2" href="https://www.facebook.com/upcsi/" target="_blank">
@@ -69,6 +69,12 @@
         <div><a class="anchor" href="https://up-csi.org/" target="_blank">https://up-csi.org/</a></div>
         <div><a class="anchor" href="mailto:lino@up-csi.org">lino@up-csi.org</a></div>
         <p>Alumni Engineers Centennial Hall, Velasquez Street, University of the Philippines Diliman, QC</p>
+    </div>
+
+    <div class="order-4 col-span-full pt-4 text-center">
+        <em class="text-xs text-neutral-400"
+            >InnovCamp 2024 is not officially affiliated nor endorsed by the Svelte project and its contributors.</em
+        >
     </div>
 </div>
 
