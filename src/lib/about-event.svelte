@@ -1,5 +1,6 @@
 <script lang="ts">
     import Box from './box.svelte';
+    import GroupPic from '$lib/assets/ic2024-group-pic.webp';
     import SvelteIcon from './svelte-icon.svelte';
 
     const box_size = '80px';
@@ -30,9 +31,9 @@
                 participants toward pioneering endeavors in the digital realm.
             </p>
             <img
-                src="/ic-grp-pic.PNG"
-                alt="Innov Camp 2023 Group Pic"
-                class="mb-8 mt-4 w-80 justify-self-center md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5"
+                src={GroupPic}
+                alt="Innov Camp 2024 Participants"
+                class="mb-8 mt-4 w-80 justify-self-center rounded-2xl md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5"
             />
         </div>
 
