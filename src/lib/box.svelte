@@ -1,8 +1,6 @@
-<script>
-    // eslint-disable-next-line init-declarations
-    export let height;
-    // eslint-disable-next-line init-declarations
-    export let width;
+<script lang="ts">
+    import type { SVGAttributes } from 'svelte/elements';
+    const { width, height }: Pick<SVGAttributes<SVGElement>, 'width' | 'height'> = $props();
 </script>
 
 <svg {width} {height} viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">

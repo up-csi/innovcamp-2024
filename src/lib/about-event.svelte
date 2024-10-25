@@ -32,7 +32,7 @@
             <img
                 src="/ic-grp-pic.PNG"
                 alt="Innov Camp 2023 Group Pic"
-                class="mb-8 mt-4 w-80 justify-self-center md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5 2xl:h-max"
+                class="mb-8 mt-4 w-80 justify-self-center md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5"
             />
         </div>
 

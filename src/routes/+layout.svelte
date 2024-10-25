@@ -30,8 +30,7 @@
             ><button
                 type="button"
                 class="variant-filled btn ml-4 rounded-lg bg-[#FF6534] text-xl text-white drop-shadow-sm"
-                disabled
-                >Registration Closed</button
+                disabled>Registration Closed</button
             ></a
         >
     </div>
