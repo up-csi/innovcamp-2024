@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
     const tableArr = [
         { event: 'Ingress', time: '05:00 PM - 6:00 PM' },
         { event: 'Introduction', time: '06:00 PM - 06:30 PM' },
