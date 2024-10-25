@@ -11,7 +11,7 @@
         "sync": "svelte-kit sync",
         "fmt": "prettier --check .",
         "fmt:fix": "prettier --write .",
-        "lint": "concurrently pnpm:lint:*",
+        "lint": "pnpm --parallel /^lint:*/",
         "lint:html": "linthtml src/**/*.html",
         "lint:css": "stylelint src/**/*.css",
         "lint:js": "eslint **/*.{js,svelte,ts}",
@@ -29,7 +29,6 @@
         "@typescript-eslint/eslint-plugin": "^7.18.0",
         "@typescript-eslint/parser": "^7.18.0",
         "autoprefixer": "^10.4.20",
-        "concurrently": "^8.2.2",
         "eslint": "^8.57.1",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.31.0",
@@ -50,6 +49,7 @@
         "vite-plugin-tailwind-purgecss": "^0.3.3"
     },
     "dependencies": {
-        "@fontsource/bebas-neue": "^5.1.0"
+        "@fontsource/bebas-neue": "^5.1.0",
+        "svelte-eslint-parser": "^0.43.0"
     }
 }
