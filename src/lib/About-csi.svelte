@@ -1,6 +1,6 @@
 <script>
-    import CSI from '$lib/assets/CSILogo.png';
-    import Git_Workshop from '$lib/assets/git-workshop-pic.jpg';
+    import CSI from '$lib/assets/csi-logo.webp';
+    import Git_Workshop from '$lib/assets/git-workshop-pic.webp';
 </script>
 
 <div

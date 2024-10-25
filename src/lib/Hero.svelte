@@ -1,10 +1,10 @@
 <script lang="ts">
-    import CSI from '$lib/assets/CSILogo.png';
-    import CSWEEK from '$lib/assets/CSWeekLogo.png';
-    import DCS from '$lib/assets/DCSLogo.png';
-    import PARSER from '$lib/assets/PARSERLogo.png';
-    import bg_src from '$lib/assets/ic-svelte-bg.jpg';
-    import logo_ic from '$lib/assets/main-logo-ic.png';
+    import CSI from '$lib/assets/csi-logo.webp';
+    import CSWEEK from '$lib/assets/cs-week-logo.webp';
+    import DCS from '$lib/assets/dcs-logo.webp';
+    import PARSER from '$lib/assets/parser-logo.webp';
+    import bg_src from '$lib/assets/ic-svelte-surge-cover.webp';
+    import logo_ic from '$lib/assets/ic-main-logo.webp';
 </script>
 
 <div class="relative bg-cover bg-center" style="background-image: url({bg_src})">
