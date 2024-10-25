@@ -1,6 +1,6 @@
 <script>
     import { Avatar } from '@skeletonlabs/skeleton';
-    import Basti from '$lib/assets/basti-ortiz.jpeg';
+    import Basti from '$lib/assets/basti-ortiz.webp';
     import DevToLogo from './dev-to-logo.svelte';
     import GithubIcon from './github-logo.svelte';
     import Lightning from './lightning.svelte';

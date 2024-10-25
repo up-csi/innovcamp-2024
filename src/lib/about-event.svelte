@@ -1,5 +1,6 @@
 <script lang="ts">
     import Box from './box.svelte';
+    import GroupPic from '$lib/assets/ic2024-group-pic.webp';
     import SvelteIcon from './svelte-icon.svelte';
 
     const box_size = '80px';
@@ -20,19 +21,17 @@
     </div>
 
     <div class="mt-4 grid-cols-5 items-center justify-center gap-x-10 lg:ml-10 lg:mt-8 lg:grid 2xl:mt-3">
-        <div class="grid lg:col-span-3">
-            <p
-                class="inter text-m w-fit px-8 py-4 text-center text-white md:text-lg lg:ml-12 lg:w-5/6 lg:text-2xl 2xl:ml-0 2xl:mt-3 2xl:w-fit"
-            >
+        <div class="grid justify-center lg:col-span-3">
+            <p class="inter text-m p-8 text-center text-white md:text-lg lg:text-2xl">
                 This year's InnovCamp coincides with the esteemed Department of Computer Science CS Week, primed to
                 ignite the spirit of innovation and technological prowess. Geared towards those with a keen interest in
                 Web Development, this event offers an immersive experience tailored to inspire, educate, and propel
                 participants toward pioneering endeavors in the digital realm.
             </p>
             <img
-                src="/ic-grp-pic.PNG"
-                alt="Innov Camp 2023 Group Pic"
-                class="mb-8 mt-4 w-80 justify-self-center md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5"
+                src={GroupPic}
+                alt="Innov Camp 2024 Participants"
+                class="mb-8 mt-4 w-80 justify-self-center rounded-2xl md:w-3/4 lg:h-max lg:w-3/4 2xl:h-4/5"
             />
         </div>
 
